@@ -1,0 +1,12 @@
+/* Intensified HUD in grayscale (black/white) */
+.hud-grid-floor {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.95) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.95) 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.9;
+}
+
+.hud-container, .hud-grid-floor, .hud-center-ring {
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+}
