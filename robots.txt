@@ -1,0 +1,11 @@
+# Nota: en GitHub Pages de proyecto, las reglas efectivas se publican también en la raíz del host.
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+Sitemap: https://ilusionist21.github.io/marco-antonio-ramos-pacompia/sitemap.xml
